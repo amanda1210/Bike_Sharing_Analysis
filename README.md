@@ -37,7 +37,7 @@ I developed a lot of visualization to figure out the descriptive statistics abou
 - Demographic of user: 74.2% of users are male, 24.3% of users are female. More than 50% of users belong to the 18~35 age group, 30% of user are from 36~55 years old group, other users are from 56~74 age group.
 - The duration distribution are mainly fall into the range from 1 to 20 mins, 5~10 mins is the most frequent durations for each trip. The median duration for female is 
 about 10 mins higher than 8 mins for male users.
-- In this dataset, we can read the most users are subscribers. 
+- About 70% of customers are from 18 ~ 35 age group, 28% of customers are from 36 ~ 55 age group. 60% subscribers are from 18 ~ 35 age group and about 35% of subsribers are from 36 ~ 55 age group. Thus, we can conclude that the proportion of subscriber in 36 ~ 55 age group is higher than the proportion of subscriber in 18 ~ 35 group. It could easier to convert a customer to a subscriber in 36 ~ 55 age group. 
 
 
 
@@ -54,6 +54,8 @@ I explored some interesting insights through this analysis, for example:
 
 - With plotting map about start station location and end station location, I found that the trip start station are centrated on San Francisco, Oakland and San Jose areas. That makes sense since the density of office buildings in these 3 area is very high.
 
+- For 18 ~ 35 and 36~ 55 age group for male are almost the same, the average duaration for each trip is 10.5 minutes. The highest average duration happens in the female in 56 ~ 75 age group. On average, in the same age group, female user usually spend 2 more minutes than male user. 
+
 
 ### Conclusion and Recommendation
 
@@ -64,6 +66,8 @@ Given the insight we generated from the analysis, I think we can have some impro
 - Especially during weekday morning and evening, we need to make sure the enough supply for people since the most frequent use cases for user is to commute for work.
 
 - Since male users account for a large amount of our users, we can put more marketing budget and resources focus to the male customer.
+
+- The difference average duration between male and femal user may result in the higher fee charged from female user than male user if we charge the fee by total time spent. Thus, I recommend that we can take both mileage and time spent into consideration to charge the fee.
 
 
 
